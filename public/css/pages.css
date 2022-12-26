@@ -1,0 +1,649 @@
+body{
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.inter{
+    font-family: 'Inter', sans-serif;
+}
+button:focus,
+button:hover,
+input:focus,
+input:hover,
+select:focus,
+select:hover,
+textarea:focus,
+textarea:hover{
+    outline: none !important;
+    box-shadow: none !important;
+}
+nav .navbar-light .navbar-nav .nav-link{
+    color: black;
+}
+nav.navbar-light .navbar-nav .nav-link.active{
+    font-weight: 700;
+    color: black !important;
+}
+
+.carousel-indicators [data-bs-target] {
+    height: 20px;
+    width: 8px;
+    transform: rotate(20deg);
+    background-color: #CCCCCC;
+}
+.carousel-indicators .active{
+    background-color: #ED1C24;
+}
+
+header form button i {
+    color: #f9f9f9a1 !important;
+}
+
+header form input{
+    display: none !important;
+}
+
+.form-header:hover input{
+    display: block !important;
+}
+
+.form-header:hover button{
+    background-color: red;
+    
+}
+.form-header:hover i{
+    color: white !important;
+}
+/**
+*    peso de letra
+*/
+.fw-600{
+    font-weight: 600;
+}
+/**
+Tamaños de letra
+*/
+.font-size-78{
+    font-size: 78px;
+}
+.font-size-62{
+    font-size: 62px;
+}
+.font-size-60{
+    font-size: 60px;
+}
+.font-size-58{
+    font-size: 58px;
+}
+.font-size-55{
+    font-size: 55px;
+}
+.font-size-50{
+    font-size: 50px;
+}
+.font-size-40{
+    font-size: 40px;
+}
+.font-size-36{
+    font-size: 36px;
+}
+.font-size-35{
+    font-size: 35px;
+}
+.font-size-32{
+    font-size: 32px;
+}
+.font-size-30{
+    font-size: 30px;
+}
+.font-size-28{
+    font-size: 28px;
+}
+.font-size-27{
+    font-size: 27px;
+}
+.font-size-26{
+    font-size: 26px;
+}
+.font-size-25{
+    font-size: 25px;
+}
+.font-size-24{
+    font-size: 24px;
+}
+.font-size-23{
+    font-size: 23px;
+}
+.font-size-22{
+    font-size: 22px;
+}
+.font-size-21{
+    font-size: 21px;
+}
+.font-size-20{
+    font-size: 20px;
+}
+.font-size-19{
+    font-size: 19px;
+}
+.font-size-18{
+    font-size: 18px !important;
+}
+.font-size-17{
+    font-size: 17px;
+}
+.font-size-16{
+    font-size: 16px;
+}
+.font-size-15{
+    font-size: 15px !important;
+}
+
+.font-size-14{
+    font-size: 14px !important;
+}
+
+.font-size-13{
+    font-size: 13px !important;
+}
+
+.font-size-12{
+    font-size: 12px;
+}
+
+.font-size-11{
+    font-size: 11px;
+}
+
+.header a{
+    text-decoration: none;
+}
+.header a:hover,
+.header a:focus
+.header a:active{
+    color: white;
+}
+th{
+    border: none;
+}
+.text-light {
+    color: #F0F0F0 !important;
+}
+
+.text-white{
+    color: #FFFFFF !important;
+}
+.text-dark{
+    color: #333333 !important;
+}
+.text-red{
+    color: #ED1C24;
+}
+.text-gray{
+    color:#848484
+}
+.bg-black{
+    background-color: #383838;
+}
+.bg-red{
+    background-color: #ED1C24;
+}
+.bg-celeste{
+    background-color: #F7F9FC !important;
+}
+.bg-gray{
+    background-color: #505052;
+}
+.bg-blue{
+    background-color: #22A7DF;
+}
+.bg-primary{
+    background-color: #00183E !important;
+}
+.bg-light{
+    background-color: #F0F0F0 !important;
+}
+.bg-light2{
+    background-color: #CCCCCC !important;
+}
+.breadcrumb-item + .breadcrumb-item::before{
+    content: '/';
+    color: #848484;
+}
+input::placeholder,
+input,
+textarea{
+    font-size: 16px;
+    color: #1D1D1A;
+}
+.underline:hover{
+    text-decoration: underline !important;
+}
+
+.card{
+    background-color: transparent;
+    border: none;
+}
+
+.breadcrumb{
+    margin-bottom: 0px !important;
+}
+.post h1, .post h2, .post h3, .post h4, .post h5, .post h6{
+    margin-bottom: 25px;
+}
+.post p{
+    font-weight: 300;
+}
+
+
+td{
+    vertical-align: middle;
+}
+
+.hero{
+    height: 70vh; 
+    background-repeat: no-repeat; 
+    background-size: 100% 100%; 
+    background-position: center;
+}
+
+#sliderHero .carousel-indicators{
+    bottom: 10px;
+}
+#sliderClient .carousel-indicators{
+    bottom: -60px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#sliderClient .carousel-indicators [data-bs-target]{
+    background-color: gray;
+}
+
+.navbar-light .navbar-toggler-icon{
+    border-radius: 2px;
+}
+
+.redes-sociales a:hover {
+    color:#0d6efd;
+}
+
+.carrusel img{
+    max-width: 139px;
+    max-height: 122px;
+}
+
+.logo-header{
+    max-width: 260px;
+}
+.message{
+    list-style: none;
+    text-align: left;
+    font-size: 12px;
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+
+.jumbotron{
+    min-height: 198px;
+}
+.contentHero{
+    margin-top: 50px !important;
+}
+.card.categoria:hover .capa{
+    display: flex !important;
+    z-index: 100;
+    background-color: #e600039e;
+}
+.card.producto{
+    border: 1px solid #E0E0E0;
+}
+.contenido-categorias .active{
+    color: #ED1C24 !important;
+    font-weight: bold !important;
+}
+nav{
+    box-shadow: 0 0 12px #0000002a;
+}
+.card-brand:hover, .card-tag:hover {
+    box-shadow: 0 0 12px #0000002a;
+}
+@media (min-width: 50px){
+    .categoria-producto{
+        bottom: 0; 
+    }
+    .position-sm-static{
+        position: static;
+    }
+    .contenedor-color{
+        width: 100%;
+        height: 94px;
+    }
+
+    #sliderHeroEmpresa .carousel-indicators {
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}
+
+
+@media (min-width: 992px){
+    .card-tag, .card-brand{
+        width: 18%;
+        margin-right: 24px;;
+    }
+    .wfooter-30{
+        width: 30%;
+    }
+    .wfooter-70{
+        width: 70%;
+    }
+    .wfooter-33{
+        width: 33%;
+    }
+    #sliderHero, .jumbotron{
+        margin-top: 120px;
+    }
+    .contentHero{
+        margin-top: 130px !important;
+    }
+    .borde-titulo:after{
+        content: '';
+        position: absolute;
+        width: 75%;
+        background-color: #212529;
+        height: 1px;
+        right: 0;
+        top: 30%;
+    }
+    .contenedor-boton-compra > div{
+        width: 48%;
+    }
+    #section3{
+        position: relative;
+    }
+    #section3 .contenedor-servicios{
+        position: absolute;
+    }
+    .form-contact{
+        max-width: 70%;
+        margin: auto;
+        margin-top: 40px;
+    }
+    .content-service{
+        width: 15.5%;
+    }
+
+    .content-service-company{
+        width: 30%;
+    }
+
+    #posts.post-index{
+        margin-top: 150px;
+    }
+    .post.index{
+        min-height: 540px;
+    }
+    #section3{
+        min-height: 357px;
+    }
+    .contenedor-calculador{
+        margin-left: 15%;
+    }
+
+    .rposition{
+        position: absolute;
+    }
+    .position-md-absolute{
+        position: absolute;
+    }
+
+    .cd-block:hover .cd-none{
+        display: block;
+    }
+    .card-client{
+        width: 15%;
+    }
+    .col-service{
+        margin-bottom: 6rem;
+    }
+    .title-service{
+        margin-left: 110px;
+    }
+    .categoria-producto .container{
+        max-width: 980px;
+        
+    }
+
+    .contenedor-color{
+        width: 18%;
+    }
+    /*
+    nav.navbar-light .navbar-nav .nav-link.active::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -5px;
+        height: 4px;
+        background-color: #ffdd00;
+        width: 60px;
+        margin: auto;
+    }
+    */
+    .cd-block:hover .cd-none{
+        display: block;
+    }
+
+    .col-service{
+        margin-bottom: 6rem;
+    }
+
+    .title-service{
+        margin-left: 110px;
+    }
+
+    .categoria-producto .container{
+        max-width: 980px;
+        
+    }
+
+    .contenedor-color{
+        width: 18%;
+    }
+}
+
+@media (min-width: 720px){
+    #form-login, #form-register{
+        min-width: 390px;
+    }
+    #accionamientos .card img{
+        max-height: 250px;
+        min-width: 250px;
+        object-fit: contain;
+    }
+
+    .w-33{
+        width: 33%;
+    }
+
+    #cotizadorOnline .medidas .form-group{
+        width: 30%;
+    }
+    
+    .categoria-producto{
+        bottom: 120px;
+    }
+    .image-card{
+        max-height: 250px;
+        min-height: 250px;
+        object-fit: cover;
+        width: 100%;
+    }
+    #sliderHero, #sliderHero .carousel-inner, #sliderHero .carousel-item{
+        max-height: 90vh;
+        min-height: 90vh;
+    }
+    #sliderEmpresa, #sliderEmpresa .carousel-inner, #sliderEmpresa .carousel-item{
+        max-height: 486px;
+        min-height: 486px;
+    }
+    #sliderEmpresa .carousel-caption{
+        top: 40%;
+    }
+    .img-client-carrusel{
+        min-width: 172px;
+        max-width: 172px;
+        min-height: 92px;
+        max-height: 92px;
+        object-fit: contain;
+    }
+
+    .contenedor-color{
+        width: 30%;
+    }
+
+    #hilos-libertad h5{
+        font-size: 30px;
+    }
+
+    #sliderHeroEmpresa .carousel-indicators{
+        bottom: 10px;
+    }
+    .w-md-48{
+        width: 48% !important;
+    }
+}
+
+
+@media (max-width: 992px){
+    .card-tag, .card-brand{
+        width: 31%;
+        margin-right: 10px;
+    }
+    .addressfooter{
+        border-right: none !important;
+    }
+    #sliderHero{
+        margin-top: 100px;
+    }
+    .font-size-32{
+        font-size: 25px;
+    }
+    #section3 .contenedor-servicios > div{
+        width: 30%;
+    }
+    .rbg-dark{
+        background-color: #212529bd !important
+    }
+    .navbar-light .navbar-nav .nav-link{
+        color:white;
+    }
+    .font-size-50{
+        font-size: 25px;
+    }
+    .hero{
+        height: 50vh;
+    }
+    .w-75{
+        width: 100% !important;
+    }
+}
+@media (max-width: 768px){
+    #section4 div div {
+        width: 400px;
+        line-height: 40px;
+        margin-top: 130px;
+    }
+    .font-size-60{
+        font-size: 35px;
+    }
+    .carousel-item .contentHero > div{
+        max-width: 400px !important;
+    }
+    .card-tag, .card-brand{
+        width: 45%;
+        margin-right: 10px;
+    }
+    .text-slider-home{
+        margin-top: 130px !important;
+    }
+    #section3 .contenedor-servicios > div{
+        width: 45%;
+    }
+    #sliderHero, #sliderHero .carousel-inner, #sliderHero .carousel-item{
+        max-height: 240px;
+        min-height: 240px;
+    }
+    .carousel-caption .w-50{
+        width: 90% !important;
+    }
+
+    .carousel-caption{
+        top: 5%;
+    }
+    .font-size-24{
+        font-size: 19px;
+    }
+    #heroProducto h2{
+        font-size: 19px;
+    }
+    .logo-header{
+        max-width: 200px;
+    }
+    .ancho-boton{
+        width: 100%;
+    }
+    #heroProducto p{
+        font-size: 15px;
+    }
+
+    #sliderHero .carousel-item{
+        height: 70vh !important;
+    }
+    #sliderEmpresa .carousel-item{
+        height: 240px !important;
+    }
+    #representadas img {
+        width: 45%;
+    }
+
+    .font-size-62{
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 600px){
+    #sliderHero, .jumbotron {
+        margin-top: 60px;
+    }
+    .row .col-sm-6{
+        max-width: 45% !important;
+    }
+
+    .font-size-40{
+        font-size: 25px;
+    }
+    .font-size-30{
+        font-size: 20px;
+    }
+    .font-size-23{
+        font-size: 19px;
+    }
+    .font-size-16{
+        font-size: 15px;
+    }
+    .font-size-20{
+        font-size: 17px;
+    }
+    .card-tag, .card-brand{
+        width: 100%;
+    }
+
+}
